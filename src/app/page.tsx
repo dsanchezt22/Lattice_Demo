@@ -865,14 +865,12 @@ function Security() {
     <Section id="security" className="py-28 md:py-36">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <Badge>Trust & Security</Badge>
-          <h2 className="mt-6 text-3xl md:text-5xl font-bold tracking-tight">
-            Your data stays on your hardware by default.
+          <Badge>Why Lattice is different</Badge>
+          <h2 className="mt-6 text-3xl md:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
+            Software should adapt to your workflow — not the other way around.
           </h2>
-          <p className="mt-4 text-muted max-w-2xl mx-auto text-lg">
-            Lattice is designed to hold your most sensitive information — finances,
-            journals, client work. Privacy is built into the architecture, not
-            added afterward.
+          <p className="mt-6 text-muted max-w-2xl mx-auto text-lg leading-relaxed">
+            Most productivity tools give users a fixed structure and ask them to fit their work into it. Lattice reverses that model. It starts from user intent and assembles the right system for the task, so the workspace matches the work from day one.
           </p>
         </div>
 
@@ -881,26 +879,18 @@ function Security() {
             <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center mb-4">
               <Shield className="w-5 h-5 text-accent-light" />
             </div>
-            <h3 className="text-lg font-semibold mb-2">Hybrid AI Architecture</h3>
+            <h3 className="text-lg font-semibold mb-3">Built from intent</h3>
             <p className="text-sm text-muted leading-relaxed">
-              Complex reasoning is handled through secure, encrypted model calls.
-              Routine and sensitive data processing happens{" "}
-              <span className="text-foreground font-medium">
-                locally on-device via Small Language Models (SLMs)
-              </span>
-              , so your personal data never leaves your hardware for day-to-day use.
+              Describe what you need through text, voice, sketches, or files. Lattice interprets the goal and assembles a working structure instead of forcing you to build one from scratch.
             </p>
           </div>
           <div className="rounded-2xl border border-border/20 bg-surface p-8">
             <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center mb-4">
               <Lock className="w-5 h-5 text-accent-light" />
             </div>
-            <h3 className="text-lg font-semibold mb-2">Edge-First Processing</h3>
+            <h3 className="text-lg font-semibold mb-3">Designed to evolve</h3>
             <p className="text-sm text-muted leading-relaxed">
-              Workspace data is processed at the edge by default. Lattice
-              minimizes cloud dependency — giving you the speed of local compute
-              combined with the capability of frontier AI models, without
-              routing sensitive context through third-party servers.
+              As the task changes, the system changes with it. Users can reshape workflows, add modules, and refine structure without rebuilding the entire workspace.
             </p>
           </div>
         </div>
