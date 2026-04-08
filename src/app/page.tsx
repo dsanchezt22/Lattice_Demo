@@ -108,7 +108,7 @@ function Nav() {
           <a href="#product" className="hover:text-foreground transition-colors">Product</a>
           <a href="#features" className="hover:text-foreground transition-colors">Features</a>
           <a href="#team" className="hover:text-foreground transition-colors">Team</a>
-          <a href="#security" className="hover:text-foreground transition-colors">Security</a>
+          <a href="#security" className="hover:text-foreground transition-colors">Why Lattice</a>
         </div>
         <div className="hidden md:block">
           <a
@@ -866,11 +866,11 @@ function Security() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <Badge>Why Lattice is different</Badge>
-          <h2 className="mt-6 text-3xl md:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
-            Software should adapt to your workflow — not the other way around.
+          <h2 className="mt-6 text-3xl md:text-5xl font-bold tracking-tight max-w-2xl mx-auto">
+            Built around your work, not around a template.
           </h2>
           <p className="mt-6 text-muted max-w-2xl mx-auto text-lg leading-relaxed">
-            Most productivity tools give users a fixed structure and ask them to fit their work into it. Lattice reverses that model. It starts from user intent and assembles the right system for the task, so the workspace matches the work from day one.
+            Most tools give you a fixed structure and ask you to fit your work into it. Lattice reverses that — it starts from what you describe and assembles the right system for the task, so the workspace matches the work from day one instead of the other way around.
           </p>
         </div>
 
